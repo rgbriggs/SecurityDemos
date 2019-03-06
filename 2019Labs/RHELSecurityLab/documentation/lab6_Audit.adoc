@@ -344,7 +344,7 @@ commands to create several audit reports for today's activity:
 	[root@audit ~]# aureport --start today --summary -i --executable
 	[root@audit ~]# aureport --start today --summary -i --login
 
-. The `aureport` and `ausearch` tools may be used together. Suppose you wanted to who was
+. The `aureport` and `ausearch` tools may be used together. Suppose you wanted to identify who was
 triggering a specific audit rule. The strategy is to search for the key that is associated and then
 feed the results to the kind of report you are interested in. This will only work if the output
 from `ausearch` is exactly as it is in the logs. To tell `ausearch` to leave the event unaltered,
@@ -456,5 +456,5 @@ If you wanted to re-do all of these audit lab exercises from scratch, you can re
 	[root@audit ~]# grub2-mkconfig -o `find /boot -name grub.cfg`
 
 <<top>>
-
+know
 link:README.adoc#table-of-contents[ Table of Contents ] | link:lab7_AIDE.adoc[ Lab 7: AIDE ]
